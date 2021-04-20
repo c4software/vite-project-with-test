@@ -11,3 +11,16 @@ test:
     reports:
       junit:
         - junit.xml
+
+pages:
+  image: node:latest
+  stage: deploy
+  script:
+    - npm run gitlab
+    - mv public public-vue
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
