@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "gitlab": "vite build --base=./",
     "lint": "eslint --fix .",
     "format": "prettier --write '**/*.{ts,js,vue,css,html,json}'",
     "test:unit": "jest --ci --reporters=default --reporters=jest-junit"
