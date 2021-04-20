@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Vue app</h1>
+    <h1>Vue app with test</h1>
     <h2>Count: {{ count }}</h2>
     <button @click="increment">Increment</button>
   </div>

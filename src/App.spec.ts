@@ -4,7 +4,7 @@ import App from './App.vue'
 
 test('uses mounts', async () => {
   const wrapper = mount(App)
-  expect(wrapper.html()).toContain('Vue app')
+  expect(wrapper.html()).toContain('Vue app with test')
   expect(wrapper.html()).toContain('Count: 0')
 })
 
